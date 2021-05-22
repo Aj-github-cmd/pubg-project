@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#fullbox
+{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logbox
+{
+    width:400px;
+    height:200px;
+    border:2px solid #03203C;
+    background-color: #03203C;
+    
+    margin:10px;
+    border-radius:5px;
+}
+#logbox h3{
+    text-align: center;
+    color:#ffff;
+    font-family: 'Cabin', sans-serif;
+}
+.facebook
+{
+    position: absolute;
+    top:48%;
+    left:42%;
+    width:200px;
+    height:40px;
+    background-color:#4267B2;
+    border:2px solid #4267B2;
+    border-radius:6px;
+    color:#ffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.twitter
+{
+    position: absolute;
+    top:54%;
+    left:42%;
+    width:200px;
+    height:40px;
+    margin-top:15px;
+    background-color:#1DA1F2;
+    border:2px solid #1DA1F2;
+    color:#ffff;
+    border-radius:6px;
+    font-family: 'Oswald', sans-serif;
+}
+@media screen and (max-width: 600px)
+{
+    .facebook
+    {
+        top:50%;
+        left:24%;
+    }
+    .twitter
+    {
+        top:55%;
+        left:24%;
+    }
+}
